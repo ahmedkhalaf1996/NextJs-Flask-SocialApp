@@ -1,0 +1,9 @@
+/frontend/node_modules
+/forntend/.pnp
+
+/frontend/.next/
+/frontend/out/
+
+/frontend/build
+
+/backend/env
