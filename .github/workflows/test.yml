@@ -47,6 +47,75 @@ jobs:
 
 
 
+  frontend-e2e-tests:
+    name: Frontend E2E Tests (Playwright)
+    runs-on: ubuntu-latest
+
+    # add a mondogb service for the real backend to connect to during e2e tests
+    services:
+        mongodb:
+            image: mongo:latest
+            ports:
+                - 27017:27017
+
+    steps:
+        - name: Checkout code 
+          uses: actions/checkout@v4
+
+        - name: Setup Node.js
+          uses: actions/setup-node@v4
+          with:
+            node-version: '22'
+            cache: 'npm'
+            cache-dependency-path: './frontend/package-lock.json'
+        
+        - name: Install frontend dependencies
+          working-directory: ./frontend
+          run: npx playwright install --with-deps chromium
+
+
+        - name: Setup Python (for Flask Backend )
+          uses: actions/setup-python@v5
+          with:
+            python-version: '3.14'
+
+        - name: Install backend dependencies
+          working-directory: ./backend 
+          run:  pip install -r requirements.txt
+
+        - name: Start Flask bakckend (in background)
+          working-directory: ./backend 
+          env: 
+            MONGO_URI: mongodb://localhost:27017/social_app_test
+            JWT_SECRET_KEY:  test_secret_key
+          run: | 
+            nohup python app.py > backend.log 2>&1 &
+            echo "Wating for Flask server to start ..."
+            sleep 5
+
+        - name: check backend status 
+          working-directory: ./backend
+          run: cat backend.log 
+        
+        - name: run Playwright tests
+          working-directory: ./frontend
+          run : npm run test:e2e
+          env:
+            CI: true
+        
+        - name: Add Summary to GitHub
+          if: always()
+          run: |
+           echo "## Frontend E2E Test Results " >> $GITHUB_STEP_SUMMARY
+           echo "The E2E tests have complated ! you can download the full html playwright report form the artifacts section below." >> $GITHUB_STEP_SUMMARY
+        
+        - name: Upload Playwright Report 
+          if: always()
+          uses: actions/upload-artifact@v4
+          with:
+            name: playwright-report
+            path: frontend/playwright-report/
+            retention-days: 1
 
 
 
