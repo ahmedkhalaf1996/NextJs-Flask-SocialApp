@@ -101,7 +101,11 @@ jobs:
         - name: check backend status 
           working-directory: ./backend
           run: cat backend.log 
-        
+
+        - name: frontend  build
+          working-directory: ./frontend
+          run: npm build
+
         - name: run Playwright tests
           working-directory: ./frontend
           run : npm run test:e2e
