@@ -104,7 +104,7 @@ jobs:
 
         - name: frontend  build
           working-directory: ./frontend
-          run: npm build
+          run: npm run build
 
         - name: run Playwright tests
           working-directory: ./frontend
