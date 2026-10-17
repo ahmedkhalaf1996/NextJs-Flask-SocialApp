@@ -8,7 +8,6 @@ class DataBase():
                 port=27017,
                 serverSelectionTimeoutMS=1000
             )
-            # mongo = pymongo.MongoClient("mongodb://admin:password@mongodb")
         except:
             print("Error connecting to MongoDB")
 
