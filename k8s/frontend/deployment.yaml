@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ahmedkhalaf666/next-flask-social-frontend:latest
+        image: ahmedkhalaf666/next-flask-social-frontend:1.0.0
         ports:
           - containerPort: 3000
         env:
