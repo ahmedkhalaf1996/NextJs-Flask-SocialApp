@@ -148,7 +148,7 @@ export default function Navbar(){
                 <div className="flex">
                     <Link href="/" className="flex shrink-0 items-center gap-2">
                      <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-indigo-600 text-white font-bold text-xl">S</div>
-                     <span className="hiden sm:block text-x1 font-bold tracking-tight text-slate-900">SocialApp</span>
+                     <span className="hiden sm:block text-x1 font-bold tracking-tight text-slate-900">InstagramClone</span>
                     </Link>
                 </div>
 
