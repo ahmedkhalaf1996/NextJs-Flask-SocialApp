@@ -52,11 +52,11 @@
 ## 🎟️ Get the Course at the Lowest Price
 
 Skip the full Udemy price. Use one of the links below and the discount is applied automatically at checkout.
-
+https://www.udemy.com/course/full-stack-nextjs-flask-social-app-real-time-2026/?couponCode=AE19341811CE1B81EF51
 | Offer | Price | Expires | Enroll |
 |:------|:-----:|:-------:|:------:|
-| 🔥 **`PROMOCODEONE`**: best price, limited time | **$9.99** | **Oct 29, 2026** | [**Claim this price →**](https://www.udemy.com/course/draft/7325131/?couponCode=PROMOCODEONE) |
-| ✅ **`PROMOCODETWO`**: still a great deal | **$12.99** | **Nov 23, 2026** | [**Claim this price →**](https://www.udemy.com/course/draft/7325131/?couponCode=PROMOCODETWO) |
+| 🔥 **`ACAA29FC84671C1CB5B2`**: best price, limited time | **$9.99** | **Oct 29, 2026** | [**Claim this price →**](https://www.udemy.com/course/full-stack-nextjs-flask-social-app-real-time-2026/?couponCode=ACAA29FC84671C1CB5B2) |
+| ✅ **`AE19341811CE1B81EF51`**: still a great deal | **$12.99** | **Nov 23, 2026** | [**Claim this price →**](https://www.udemy.com/course/full-stack-nextjs-flask-social-app-real-time-2026/?couponCode=AE19341811CE1B81EF51) |
 
 > 💡 **Tip:** Click the link rather than typing the code by hand. Udemy applies the coupon for you, and you can see the final price before you pay.
 > Coupons are time-limited and Udemy may cap how many people can redeem them, so grab yours while the price is at its lowest.
