@@ -283,9 +283,9 @@ Browse the code, star the repo, and when you want to understand *every line and 
 
 ### Pick your price and start today
 
-[![Get it for $9.99](https://img.shields.io/badge/%249.99-PROMOCODEONE%20%C2%B7%20expires%20Oct%2029-A435F0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/draft/7325131/?couponCode=PROMOCODEONE)
+[![Get it for $9.99](https://img.shields.io/badge/%249.99-PROMOCODEONE%20%C2%B7%20expires%20Oct%2029-A435F0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/draft/7325131/?couponCode=ACAA29FC84671C1CB5B2)
 
-[![Get it for $12.99](https://img.shields.io/badge/%2412.99-PROMOCODETWO%20%C2%B7%20expires%20Nov%2023-5624D0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/draft/7325131/?couponCode=PROMOCODETWO)
+[![Get it for $12.99](https://img.shields.io/badge/%2412.99-PROMOCODETWO%20%C2%B7%20expires%20Nov%2023-5624D0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/draft/7325131/?couponCode=AE19341811CE1B81EF51)
 
 <br/>
 
