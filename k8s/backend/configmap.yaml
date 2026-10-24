@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace:  social-app
+data:
+  MONGO_URI: "mongodb://mongodb-service:27017/social"
+  REDIS_URL: "redis://redis-service:6379"

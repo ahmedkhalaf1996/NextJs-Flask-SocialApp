@@ -1,11 +1,11 @@
 import pymongo
-
+import os
 class DataBase():
     def connect():
         try:
+            mongo_uri = os.environ.get("MONGO_URI", "mongodb://localhost:27017")
             mongo = pymongo.MongoClient(
-                host="localhost",
-                port=27017,
+                mongo_uri,
                 serverSelectionTimeoutMS=1000
             )
         except:
