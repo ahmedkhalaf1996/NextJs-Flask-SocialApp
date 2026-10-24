@@ -1,261 +1,303 @@
- <div align="center">
+<!--
+  ╔══════════════════════════════════════════════════════════════════╗
+  ║  OWNER NOTES (delete this block before publishing if you like)   ║
+  ║  1. Coupon links use the draft course URL. Once the course is    ║
+  ║     public, find & replace  udemy.com/course/draft/7325131/      ║
+  ║     with  udemy.com/course/<your-public-slug>/                   ║
+  ║  2. Coupon expiry dates below are calculated from 2026-10-24.    ║
+  ║     Update the table when you create new coupons.                ║
+  ╚══════════════════════════════════════════════════════════════════╝
+-->
 
-<img src="imges/logo.png" alt="Next.js Flask Social App" width="760" />
+<div align="center">
 
-# Full-Stack Real-Time Social App [2026]
+<img src="imges/logo.png" alt="Full-Stack Next.js & Flask Social App course logo" width="260" />
 
-### Build a complete social media application with Next.js, Flask, Socket.IO, MongoDB, testing, Docker, Redis, and Kubernetes.
+# Build a Real-Time Social Network from Scratch
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)](https://nextjs.org/)
-[![Flask](https://img.shields.io/badge/Flask-Python-black?logo=flask)](https://flask.palletsprojects.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)](https://www.mongodb.com/)
-[![Docker](https://img.shields.io/badge/Docker-Containers-blue?logo=docker)](https://www.docker.com/)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-Deployment-blue?logo=kubernetes)](https://kubernetes.io/)
+### Next.js 16 · Flask · Socket.IO · MongoDB · Redis · Docker · Kubernetes · CI/CD
 
-**Build more than a CRUD application. Learn to develop, test, containerize, and prepare a real-time full-stack application for deployment.**
+**Not another to-do app.** Build, test, containerize and deploy a *real* full-stack social platform, with live chat, live notifications, online presence, automated tests and a Kubernetes-ready backend.
+
+<br/>
+
+[![Enroll on Udemy](https://img.shields.io/badge/ENROLL%20NOW-Udemy%20Course-A435F0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/draft/7325131/?couponCode=PROMOCODEONE)
+&nbsp;
+[![Price from $9.99](https://img.shields.io/badge/Launch%20Price-%249.99-brightgreen?style=for-the-badge)](https://www.udemy.com/course/draft/7325131/?couponCode=PROMOCODEONE)
+
+<br/>
+
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS_4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-433E38?style=flat-square)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Flask--SocketIO-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis_Pub/Sub-DC382D?style=flat-square&logo=redis&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright_E2E-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+
+<br/>
+
+**6 sections &nbsp;•&nbsp; 172 lectures &nbsp;•&nbsp; 32h 30m of content &nbsp;•&nbsp; Updated for 2026**
 
 </div>
 
 ---
 
-## 🎓 Get the Full Course on Udemy
+## 🎟️ Get the Course at the Lowest Price
 
-Want to build this application yourself, step by step?
+Skip the full Udemy price. Use one of the links below and the discount is applied automatically at checkout.
 
-**Full-Stack (Next.js & Flask) Social App (Real-Time) [2026]**
+| Offer | Price | Expires | Enroll |
+|:------|:-----:|:-------:|:------:|
+| 🔥 **`PROMOCODEONE`**: best price, limited time | **$9.99** | **Oct 29, 2026** | [**Claim this price →**](https://www.udemy.com/course/draft/7325131/?couponCode=PROMOCODEONE) |
+| ✅ **`PROMOCODETWO`**: still a great deal | **$12.99** | **Nov 23, 2026** | [**Claim this price →**](https://www.udemy.com/course/draft/7325131/?couponCode=PROMOCODETWO) |
 
-- 6 sections
-- 172 lectures
-- 32 hours and 30 minutes of content
-
-### 🎟️ Choose Your Coupon
-
-| Coupon code | Price | Expiration |
-|---|---:|---|
-| `PROMOCODEONE` | **$9.99 USD** | Expires in 5 days |
-| `PROMOCODETWO` | **$12.99 USD** | Expires in 30 days |
-
-**How to enroll:**
-
-1. [Open the course on Udemy](https://www.udemy.com/course/draft/7325131/?instructorPreviewMode=guest).
-2. Apply your available coupon code at checkout, if applicable.
-3. Confirm the final price before purchasing.
-
-**Offer reminder:** The coupon codes above are examples. Replace them with your actual active Udemy coupon codes before publishing. Prices and expiration depend on the coupon settings.
-
-> **Important:** The supplied course link contains `/course/draft/`. If students cannot enroll through it, replace it with your published, public Udemy course URL.
+> 💡 **Tip:** Click the link rather than typing the code by hand. Udemy applies the coupon for you, and you can see the final price before you pay.
+> Coupons are time-limited and Udemy may cap how many people can redeem them, so grab yours while the price is at its lowest.
 
 ---
 
-## 🚀 About This Project
+## 🚀 What You Will Build
 
-This repository contains a full-stack social media application inspired by platforms such as Instagram.
+A complete, production-style social media platform. It is the kind of project you can put in your portfolio and explain in an interview.
 
-The application combines a modern Next.js frontend with a Python Flask backend, MongoDB persistence, and real-time communication using Flask-SocketIO.
-
-It also explores automated testing, GitHub Actions, Docker image publishing, Redis Pub/Sub, and Kubernetes deployment workflows.
-
-**The screenshots below are from the actual application built in this project.**
-
-## ✨ Features
-
-### Social Media
-
-- Create posts with images.
-- Edit posts after publishing.
-- Add and delete comments.
-- Browse posts from your own account and connections.
-- Load older posts using pagination.
-- View user profiles, biographies, followers, following, and posts.
-- Search for users and posts.
-- Discover suggested users to follow.
-
-### Real-Time Features
-
-- Real-time chat between connections.
-- Online and offline user presence.
-- Unread-message counts.
-- Access to previous conversations.
-- Real-time notifications.
-- Mark notifications as read.
-
-### Backend and Authentication
-
-- REST API built with Flask.
-- JWT authentication and authorization.
-- MongoDB as the primary database.
-- MongoDB aggregation pipelines.
-- Flask-SocketIO event handling.
-
-### Testing and DevOps
-
-- Backend unit tests with Pytest.
-- API integration testing.
-- End-to-end testing with Playwright.
-- Automated CI checks with GitHub Actions.
-- Docker image builds and publishing.
-- Redis Pub/Sub for Socket.IO message sharing across instances.
-- Kubernetes deployment resources and automation scripts.
+- 👤 **Users & profiles**: Instagram-style profile pages with bio, followers and following counts
+- 📝 **Posts**: create posts with images, edit them later, delete them
+- ❤️ **Likes & comments**: interact with any post, add and remove comments
+- 🏠 **Feed**: your posts plus your friends' posts, with pagination so you can keep scrolling back through older posts
+- 🔎 **Search**: find users, posts, or both
+- 🤝 **Friend suggestions**: a "People you may know" panel that suggests users to follow
+- 💬 **Real-time chat**: live messages, message history, unread counters
+- 🟢 **Online presence**: see which connections are online right now
+- 🔔 **Live notifications**: real-time alerts you can mark as read
+- 🔐 **Authentication**: JWT-based auth and authorization
 
 ---
 
-## 📸 Application Screenshots
+## 📸 See It in Action
 
-All screenshots below are stored in the repository's [`imges/`](imges/) directory.
+### Home feed: create posts with images
 
-### 1. Home Feed and Creating Posts
+<p align="center">
+  <img src="imges/2.png" alt="Home page where users create posts with images" width="90%" />
+</p>
 
-Create posts with images and browse posts from yourself and your connections.
+### Edit your posts after publishing
 
-![Home feed and image posts](imges/2.png)
+<p align="center">
+  <img src="imges/3.png" alt="Editing an existing post" width="90%" />
+</p>
 
-### 2. Edit Existing Posts
+### Search users, posts, or both
 
-Update posts after they have been created.
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="imges/4.png" alt="Search results showing users only" /><br/>
+      <sub><b>Users-only results</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="imges/5.png" alt="Search results showing users and posts" /><br/>
+      <sub><b>Users and posts together</b></sub>
+    </td>
+  </tr>
+</table>
 
-![Editing an existing post](imges/3.png)
+### Real-time chat with online status and unread counters
 
-### 3. Search for Users
+Your connections sit on the left with **online/offline status** and a **badge for unread messages**. The conversation sits on the right, delivered live over WebSockets, with older messages loading as you scroll back.
 
-Find other users through the search page.
+<p align="center">
+  <img src="imges/8.png" alt="Real-time chat page with online users and unread message counts" width="90%" />
+</p>
 
-![Search results showing users](imges/4.png)
+### Live notifications
 
-### 4. Search Users and Posts
+Notifications, user status and messages all update in real time, with no page refresh. Mark notifications as read right from the page.
 
-Search for people and posts in the same experience.
+<p align="center">
+  <img src="imges/6.png" alt="Notifications page with mark-as-read" width="90%" />
+</p>
 
-![Search results showing users and posts](imges/5.png)
+### Friend suggestions, profiles and comments
 
-### 5. Real-Time Notifications
-
-View notifications and mark them as read.
-
-![Notifications page](imges/6.png)
-
-### 6. Suggested People
-
-Discover other users you may know and connect with them.
-
-![Suggested users](imges/7.png)
-
-### 7. Real-Time Chat
-
-Chat with connections, view online status, check unread-message counts, and access previous messages.
-
-![Real-time chat and connections](imges/8.png)
-
-### 8. User Profiles
-
-View a user's name, biography, follower and following counts, and published posts.
-
-![User profile](imges/9.png)
-
-### 9. Comments
-
-Add comments to posts and remove comments when needed.
-
-![Post comments](imges/11.png)
-
----
-
-## 🧪 Automated Testing and CI/CD
-
-The project demonstrates how to automate testing and integrate it into the development workflow.
-
-### GitHub Actions Pipeline
-
-See the workflow for automated testing and Docker image builds and publishing.
-
-![GitHub Actions pipeline](imges/12.png)
-
-### Build and Test Summaries
-
-Review the summaries generated by GitHub Actions, including test results and Docker build information.
-
-![GitHub Actions summaries](imges/13.png)
-
-### Playwright End-to-End Test Report
-
-Inspect the HTML report generated by Playwright to review end-to-end test results.
-
-![Playwright HTML report](imges/14.png)
-
-Explore the repository's [GitHub Actions runs](https://github.com/ahmedkhalaf1996/NextJs-Flask-SocialApp/actions).
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="imges/7.png" alt="People you may know suggestions" /><br/>
+      <sub><b>People you may know</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="imges/9.png" alt="Instagram-style user profile page" /><br/>
+      <sub><b>Instagram-style profiles</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="imges/11.png" alt="Adding and deleting comments on a post" /><br/>
+      <sub><b>Add &amp; delete comments</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🧰 Technology Stack
+## 🏗️ The Architecture You Will Understand
 
-| Area | Technologies |
-|---|---|
-| Frontend | Next.js 16, React, Tailwind CSS 4 |
-| State management | Zustand |
-| Authentication | JWT, js-cookie |
-| Backend | Python, Flask, REST API |
-| Real-time communication | Flask-SocketIO, Socket.IO |
-| Database | MongoDB, aggregation pipelines |
-| Backend testing | Pytest |
-| End-to-end testing | Playwright |
-| CI/CD | GitHub Actions |
-| Containers | Docker |
-| Messaging and scaling | Redis Pub/Sub |
-| Orchestration | Kubernetes |
+Most courses stop when the app runs on `localhost`. This one goes further, to a **horizontally scalable real-time backend** running on Kubernetes.
 
----
-
-## 🏗️ Development Workflow
-
-```text
-Next.js Frontend + Flask REST API
-                 |
-                 v
-           MongoDB Database
-                 |
-                 v
-       Real-Time Socket.IO Events
-                 |
-                 v
-       Pytest + Playwright Testing
-                 |
-                 v
-          GitHub Actions CI
-                 |
-                 v
-           Docker Images
-                 |
-                 v
-        Redis Pub/Sub + Kubernetes
+```mermaid
+flowchart LR
+    U["🌐 Browser"] --> N["Next.js 16<br/>Tailwind 4 + Zustand"]
+    N -->|"REST + JWT"| F1["Flask API<br/>(pod 1)"]
+    N -->|"WebSocket"| F2["Flask-SocketIO<br/>(pod 2..n)"]
+    F1 --> M[("MongoDB")]
+    F2 --> M
+    F1 <-->|"Pub/Sub"| R[("Redis<br/>message queue")]
+    F2 <-->|"Pub/Sub"| R
 ```
 
-This is a learning project. Review configuration, secrets management, security, and infrastructure requirements before deploying it to production.
+**Why Redis matters:** with several Flask pods running, a message sent to one pod must still reach a user connected to another. The course shows you the problem first, then solves it with Redis Pub/Sub as the Socket.IO message queue, so you understand *why* and not just *how*.
 
 ---
 
-## 🎯 Who Is This Course For?
+## 🧪 Real Testing & CI/CD, Not an Afterthought
 
-- Frontend developers who want to learn Python and Flask.
-- Python developers who want to build a modern Next.js frontend.
-- Full-stack developers interested in real-time applications.
-- Developers learning automated testing and CI/CD.
-- Engineers exploring Docker, Redis, and Kubernetes.
+Plenty of tutorials skip testing. This course builds it into the workflow, with **unit tests, integration tests and end-to-end tests** wired into a **GitHub Actions** pipeline that runs on every push and finishes by building and pushing your Docker images.
 
-The course combines practical application development with testing and deployment workflows.
+<p align="center">
+  <img src="imges/12.png" alt="GitHub Actions pipeline: unit, integration, e2e, docker build and push" width="90%" />
+</p>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="imges/13.png" alt="GitHub Actions job summaries for tests and Docker build" /><br/>
+      <sub><b>Job summaries for unit tests and Docker builds</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="imges/14.png" alt="Playwright HTML report for end-to-end tests" /><br/>
+      <sub><b>Playwright HTML report for E2E tests</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 👨‍💻 About the Instructor
+## 🎓 What You'll Learn
 
-I'm **Ahmed Khalaf**, a Senior Software Engineer and DevOps Engineer with 12+ years of experience in the software industry.
+<details open>
+<summary><b>Full-stack development</b></summary>
 
-My goal is to help developers build practical projects while understanding the technologies and engineering workflows behind them.
+- Build a complete social media web app from scratch with **Next.js** and **Flask**
+- Build a modern frontend with **Next.js 16** and **Tailwind CSS 4**
+- Manage frontend auth and application state with **Zustand**
+- Implement users, profiles, posts, likes, comments, pagination, friend suggestions and notifications
 
-If you find this repository useful, consider giving it a ⭐ on GitHub.
+</details>
 
-## 🎓 Ready to Build Your Own Social App?
+<details open>
+<summary><b>Backend & real-time</b></summary>
 
-Explore the full course and use an active coupon if one is available.
+- Develop a production-style **REST API** with Python Flask
+- Build real-time chat, online friends and live notifications with **Flask-SocketIO**
+- Use **MongoDB** as the primary database
+- Use **MongoDB aggregation pipelines** to retrieve and combine related data efficiently
+- Build authentication and authorization with **JWT**
 
-**[👉 Explore the Udemy Course](https://www.udemy.com/course/draft/7325131/?instructorPreviewMode=guest)**
+</details>
 
-[View the source code on GitHub](https://github.com/ahmedkhalaf1996/NextJs-Flask-SocialApp)
+<details open>
+<summary><b>Testing & automation</b></summary>
+
+- Write backend unit tests with **Pytest**
+- Create backend integration tests for your API
+- Write end-to-end tests for the Next.js app with **Playwright**
+- Build a **GitHub Actions** CI pipeline that runs your tests on every push
+
+</details>
+
+<details open>
+<summary><b>Scaling, Docker & Kubernetes</b></summary>
+
+- Prepare a real-time Flask app for **horizontal scaling**
+- Use **Redis Pub/Sub** as a message queue for Socket.IO
+- Understand why Redis becomes essential when Socket.IO runs across multiple **Kubernetes pods**
+- Create scripts that automate Kubernetes deployment and application updates
+- See the whole path: **development → testing → CI → containerization → Kubernetes**
+
+</details>
+
+---
+
+## 👥 Who Is This Course For?
+
+- Developers who have built small CRUD apps and want to build **something real**
+- Frontend developers who want to understand the backend, real-time and DevOps side
+- Python developers who want a modern **Next.js** frontend on top of Flask
+- Anyone preparing a **portfolio project** that shows full-stack, testing and deployment skills together
+
+---
+
+## 📦 What's In This Repository
+
+This repo holds the finished project that you build step by step in the course.
+
+```text
+NextJs-Flask-SocialApp/
+├── backend/             # Flask REST API + Flask-SocketIO (Python)
+├── frontend/            # Next.js app (Tailwind CSS, Zustand)
+├── k8s/                 # Kubernetes manifests
+├── .github/workflows/   # GitHub Actions CI/CD pipelines
+├── imges/               # Screenshots used in this README
+├── deploy.bat           # Deployment helper script
+├── run-local-k8s.bat    # Start the app on a local Kubernetes cluster
+├── stop-k8s.bat         # Stop the local Kubernetes deployment
+├── run_test.sh          # Run the test suites (Linux / macOS)
+└── run_tests.ps1        # Run the test suites (Windows PowerShell)
+```
+
+Browse the code, star the repo, and when you want to understand *every line and why it was written that way*, the course walks you through it from an empty folder.
+
+---
+
+## 💡 Why Take the Course Instead of Just Reading the Code?
+
+| Reading the repo | Following the course |
+|:-----------------|:---------------------|
+| See the final result | Build it from an empty folder, step by step |
+| Guess why decisions were made | Hear the reasoning behind each design choice |
+| Run into errors alone | See common problems solved as they come up |
+| Code only | Code, testing, CI/CD and Kubernetes deployment in one workflow |
+| No lasting reference | 32+ hours you can rewatch any time, at your own pace |
+
+---
+
+## 🔥 Ready to Build It?
+
+<div align="center">
+
+### Pick your price and start today
+
+[![Get it for $9.99](https://img.shields.io/badge/%249.99-PROMOCODEONE%20%C2%B7%20expires%20Oct%2029-A435F0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/draft/7325131/?couponCode=PROMOCODEONE)
+
+[![Get it for $12.99](https://img.shields.io/badge/%2412.99-PROMOCODETWO%20%C2%B7%20expires%20Nov%2023-5624D0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/draft/7325131/?couponCode=PROMOCODETWO)
+
+<br/>
+
+⭐ **Found this useful? Give the repo a star.** It helps other developers find it.
+
+</div>
+
+---
+
+## 🙋 Questions?
+
+- Open an [issue](https://github.com/ahmedkhalaf1996/NextJs-Flask-SocialApp/issues) on this repo
+- Ask in the Q&A section of the Udemy course
+
+Built by [@ahmedkhalaf1996](https://github.com/ahmedkhalaf1996) 🚀
